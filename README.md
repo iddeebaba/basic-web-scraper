@@ -24,4 +24,27 @@ No extra packages needed.
    - Save the file
    - Open Command Prompt / Terminal
    - Go to the folder where the script is saved (example: `cd Desktop`)
-   - Run:  
+   - Run:
+python file_organizer.py
+text3. For **simple_task_reminder.py**:
+- Open Command Prompt / Terminal
+- Go to the folder where the script is saved
+- Run:
+python simple_task_reminder.py
+text- (You can change the minutes and message inside the code if you want)
+
+## Example in Action
+
+Files before running:  
+![Before sorting](before.png)
+
+Console output when running:  
+![Console output](output.png)
+
+After running (files organized):  
+![After sorting](after.png)
+
+## Why I built this
+These are practice projects to learn file handling, paths, loops and timing — skills useful for real automation work.
+
+Feel free to test them or ask me to add more features!
