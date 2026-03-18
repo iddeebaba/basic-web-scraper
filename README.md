@@ -1,22 +1,27 @@
-# Basic Web Scraper
+# Python Automation Scripts
 
-Simple Python web scraping examples using `requests` and `BeautifulSoup4`.  
-Great for learning how to extract data from websites (news headlines, prices, etc.).
+Simple Python tools I created to automate repetitive tasks and save time.
 
 ## Included Scripts
+- **file_organizer.py**  
+  Automatically sorts files: moves PDFs to a "PDFs" folder and images (jpg/png/etc.) to an "Images" folder.
 
-- **simple_news_scraper.py**  
-  Fetches and prints the latest headlines from a news website (BBC example).
+- **simple_task_reminder.py**  
+  Sets a timed reminder that notifies you after a chosen delay (good for breaks, tasks, etc.).
 
-- **price_tracker_example.py**  
-  Scrapes book titles and prices from a practice website (books.toscrape.com).
-
-## Technologies Used
-
+## Technologies
 - Python 3  
-- requests (for HTTP requests)  
-- beautifulsoup4 (for HTML parsing)
+- Standard libraries only: os, shutil, time, datetime
 
-Install dependencies (if needed):
-```bash
-pip install requests beautifulsoup4
+No extra packages needed.
+
+## How to Run
+
+1. Download or copy the scripts from this repository  
+2. For **file_organizer.py**:
+   - Open the file in a text editor (Notepad, VS Code, etc.)
+   - Change the `source_folder` path to your own folder (e.g. Downloads, Desktop, etc.)
+   - Save the file
+   - Open Command Prompt / Terminal
+   - Go to the folder where the script is saved (example: `cd Desktop`)
+   - Run:  
